@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+body {
+  margin: 0;
+  padding: 0%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+}
+
+.gradientColorYellow{
+  background: linear-gradient(to right, #E2A100 50%, #D89100 50%);
+}
+:hover.gradientColorYellow{
+  background: linear-gradient(to right, #D89100 50%, #E2A100 50%);
+}
+
+.gradientColorPurple{
+  background: linear-gradient(to right, #753CE9 50%, #814BF5 50%);
+}
+:hover.gradientColorPurple{
+  background: linear-gradient(to right,#814BF5 50%,#753CE9 50%);
+}
+.text-animation {
+  overflow: hidden;
+  animation: leftToRight 15s linear infinite;
+}
+
+@keyframes leftToRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+.slick-prev{
+  margin-left: 50px;
+  margin-top: -20px!important;
+  z-index: 40;
+  display: none;
+}
+.slick-next{
+  margin-right:0px;
+  margin-top: -20px!important; 
+  top: 48%!important;
+  display: none;
+}
+
+.slick-arrow{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .slick-next{
+    display: none;
+    height: 1px !important;
+    width: 1px !important;
+    font: 10px;
+    margin-right: 45px;
+  }
+    /* margin-top: -20px!important;  */
+  
+  .slick-prev{
+    /* display: hidden; */
+    margin-left: -10px;
+  }
+}
+/* body{
+  background-image: url("/body-background.png") !important;
+  background-size: cover !important;
+  background-color: transparent !important;
+
+} */
+
+
+/* @import url(https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css);  */
+
+.swiper-slide{
+  display: flex!important;
+  border: 1px solid #fff;
+  margin-right: 3px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #2f4552;
+  font-size:28px;
+  border-radius: 6px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  width: 150px!important;
+}
+
+.swiper-slide:hover{
+  background-color: #987712;
+
+@import url(https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css); 
+
+input:checked + .slider {
+  background-color: #2196F3;
+  border-radius: 5px;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+  border-radius: 5px;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(800%);
+  -ms-transform: translateX(800%);
+  transform: translateX(800%);
+  border-radius: 5px;
+}
+
+
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+}
+  
