@@ -69,7 +69,7 @@ function Sidebar() {
                 width: 52, 
               }}
             >
-              {/* <Logo /> */}
+             <img src='https://img.freepik.com/free-psd/logo-mockup-panel-wall_511564-1493.jpg?size=626&ext=jpg&ga=GA1.2.669828460.1689154101&semt=sph'/>
             </Box>
             </Box>
           </Box>

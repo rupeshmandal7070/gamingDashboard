@@ -69,7 +69,7 @@ function SidebarTopSection() {
   const { logout } = useAuth();
 
   const user = {
-    avatar: '/static/images/avatars/1.jpg',
+    avatar: 'https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?size=626&ext=jpg&ga=GA1.2.669828460.1689154101&semt=sph',
     name: 'Rachael Simons',
     jobtitle: 'Lead Developer'
   };

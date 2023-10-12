@@ -32,12 +32,7 @@ const menuItems = [
             name: 'All Users',
             link: '/dashboard/allUsers',
           },
-       
-          {
-            name: 'Email to All',
-            link: '/dashboards/banking'
-          },
-         
+   
 
         ]
       },
